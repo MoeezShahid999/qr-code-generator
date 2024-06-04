@@ -13,7 +13,7 @@ function App() {
 
   const handleClick = () => {
     if (!value) {
-      alert('Please add a value')
+      alert('Please add some text to generate code')
       return null
     }
     if (show) {
@@ -27,7 +27,7 @@ function App() {
         <p>QR-CODE</p>
       </div>
       <div className='input-container'>
-        <input disabled={show} value={value} onChange={handleChange} />{' '}
+        <input placeholder='Text/Link to be embedded in qr code generator' disabled={show} value={value} onChange={handleChange} />{' '}
         <button onClick={handleClick}>{show ? 'Remove QR' : 'Generate'}</button>
       </div>
       <div className='qr-container'>
