@@ -1,0 +1,33 @@
+.App .header {
+  height: 50px;
+  background-color: hsl(218, 95%, 60%);
+  padding: 10px 0px 0 5px;
+}
+
+.App .header p {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.App .input-container{
+  margin-top: 10px;
+}
+
+.App .input-container input{
+  padding: 5px;
+  width: 20vw;
+}
+
+.App .input-container button{
+  padding: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.App .qr-container {
+  margin-top: 20px;
+  max-width: 200px;
+}
